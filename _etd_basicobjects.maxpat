@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 41.0, 114.0, 948.0, 535.0 ],
+		"rect" : [ 996.0, 114.0, 948.0, 535.0 ],
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -404,7 +404,7 @@
 
 							}
  ],
-						"originid" : "pat-278"
+						"originid" : "pat-716"
 					}
 ,
 					"patching_rect" : [ 235.0, 180.0, 37.0, 23.0 ],
@@ -600,7 +600,7 @@
 
 							}
  ],
-						"originid" : "pat-280"
+						"originid" : "pat-718"
 					}
 ,
 					"patching_rect" : [ 190.0, 90.0, 36.0, 23.0 ],
@@ -968,7 +968,7 @@
 
 							}
  ],
-						"originid" : "pat-282"
+						"originid" : "pat-720"
 					}
 ,
 					"patching_rect" : [ 205.0, 120.0, 45.0, 23.0 ],
@@ -1008,6 +1008,28 @@
 						"showontab" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 615.0, 215.0, 177.0, 21.0 ],
+									"text" : "cmd+y：オブジェクトを整列"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 615.0, 170.0, 224.0, 21.0 ],
+									"text" : "cmd+j：オブジェクトサイズを最適化"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1023,7 +1045,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 240.0, 156.0, 21.0 ],
+									"patching_rect" : [ 615.0, 280.0, 156.0, 21.0 ],
 									"text" : "cmd+option+d：置き換え"
 								}
 
@@ -1081,7 +1103,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 285.0, 120.0, 21.0 ],
+									"patching_rect" : [ 615.0, 325.0, 120.0, 21.0 ],
 									"text" : "control+drag：複製"
 								}
 
@@ -1092,7 +1114,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 760.0, 150.0, 55.0, 21.0 ],
+									"patching_rect" : [ 760.0, 85.0, 55.0, 21.0 ],
 									"text" : "Z：縮小"
 								}
 
@@ -1103,7 +1125,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 760.0, 105.0, 54.0, 21.0 ],
+									"patching_rect" : [ 760.0, 40.0, 54.0, 21.0 ],
 									"text" : "z：拡大"
 								}
 
@@ -1137,7 +1159,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 195.0, 87.0, 21.0 ],
+									"patching_rect" : [ 615.0, 130.0, 87.0, 21.0 ],
 									"text" : "cmd+d：複製"
 								}
 
@@ -1148,7 +1170,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 150.0, 101.0, 21.0 ],
+									"patching_rect" : [ 615.0, 85.0, 101.0, 21.0 ],
 									"text" : "cmd+Z：リドゥ"
 								}
 
@@ -1159,7 +1181,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 105.0, 112.0, 21.0 ],
+									"patching_rect" : [ 615.0, 40.0, 112.0, 21.0 ],
 									"text" : "cmd+z：アンドゥ"
 								}
 
@@ -1170,8 +1192,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.0, 355.0, 107.0, 21.0 ],
-									"text" : "t：trigger トリガ"
+									"patching_rect" : [ 115.0, 355.0, 104.0, 21.0 ],
+									"text" : "t：trigger トグル"
 								}
 
 							}
@@ -1328,7 +1350,7 @@
 
 							}
  ],
-						"originid" : "pat-284"
+						"originid" : "pat-722"
 					}
 ,
 					"patching_rect" : [ 15.0, 90.0, 66.0, 23.0 ],
@@ -1404,7 +1426,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-286"
+						"originid" : "pat-724"
 					}
 ,
 					"patching_rect" : [ 365.0, 120.0, 68.0, 23.0 ],
@@ -1602,7 +1624,7 @@
 
 											}
  ],
-										"originid" : "pat-292",
+										"originid" : "pat-730",
 										"styles" : [ 											{
 												"name" : "grid55",
 												"parentstyle" : "",
@@ -1682,7 +1704,7 @@
 
 							}
  ],
-						"originid" : "pat-288"
+						"originid" : "pat-726"
 					}
 ,
 					"patching_rect" : [ 350.0, 90.0, 83.0, 23.0 ],
@@ -2218,7 +2240,7 @@
 
 							}
  ],
-						"originid" : "pat-294"
+						"originid" : "pat-732"
 					}
 ,
 					"patching_rect" : [ 75.0, 210.0, 76.0, 23.0 ],
@@ -2250,7 +2272,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 41.0, 140.0, 948.0, 509.0 ],
+						"rect" : [ 0.0, 26.0, 948.0, 509.0 ],
 						"default_fontsize" : 13.0,
 						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 2,
@@ -2647,7 +2669,7 @@
 
 							}
  ],
-						"originid" : "pat-296"
+						"originid" : "pat-734"
 					}
 ,
 					"patching_rect" : [ 380.0, 150.0, 114.0, 23.0 ],
@@ -3281,7 +3303,7 @@
 
 							}
  ],
-						"originid" : "pat-298"
+						"originid" : "pat-736"
 					}
 ,
 					"patching_rect" : [ 90.0, 240.0, 56.0, 23.0 ],
@@ -3652,7 +3674,7 @@
 
 							}
  ],
-						"originid" : "pat-300"
+						"originid" : "pat-738"
 					}
 ,
 					"patching_rect" : [ 220.0, 150.0, 49.0, 23.0 ],
@@ -4388,7 +4410,7 @@
 
 							}
  ],
-						"originid" : "pat-302"
+						"originid" : "pat-740"
 					}
 ,
 					"patching_rect" : [ 105.0, 270.0, 63.0, 23.0 ],
@@ -4929,7 +4951,7 @@
 
 							}
  ],
-						"originid" : "pat-304"
+						"originid" : "pat-742"
 					}
 ,
 					"patching_rect" : [ 60.0, 180.0, 35.0, 23.0 ],
@@ -5341,7 +5363,7 @@
 
 							}
  ],
-						"originid" : "pat-306"
+						"originid" : "pat-744"
 					}
 ,
 					"patching_rect" : [ 45.0, 150.0, 72.0, 23.0 ],
@@ -5373,7 +5395,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 948.0, 509.0 ],
+						"rect" : [ 996.0, 140.0, 948.0, 509.0 ],
 						"default_fontsize" : 13.0,
 						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 2,
@@ -5802,7 +5824,7 @@
 
 							}
  ],
-						"originid" : "pat-308"
+						"originid" : "pat-746"
 					}
 ,
 					"patching_rect" : [ 250.0, 210.0, 40.0, 23.0 ],
@@ -6029,7 +6051,7 @@
 
 							}
  ],
-						"originid" : "pat-310"
+						"originid" : "pat-748"
 					}
 ,
 					"patching_rect" : [ 30.0, 120.0, 48.0, 23.0 ],
@@ -6082,7 +6104,7 @@
 						"showontab" : 1,
 						"boxes" : [  ],
 						"lines" : [  ],
-						"originid" : "pat-312"
+						"originid" : "pat-750"
 					}
 ,
 					"patching_rect" : [ 880.0, 440.0, 27.0, 23.0 ],
@@ -6093,7 +6115,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-276",
+		"originid" : "pat-714",
 		"parameters" : 		{
 			"obj-6::obj-55" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{

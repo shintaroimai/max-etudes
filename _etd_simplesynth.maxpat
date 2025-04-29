@@ -2360,7 +2360,7 @@
 
 							}
  ],
-						"originid" : "pat-497",
+						"originid" : "pat-27",
 						"editing_bgcolor" : [ 0.235294117647059, 0.235294117647059, 0.235294117647059, 1.0 ]
 					}
 ,
@@ -2985,11 +2985,12 @@
 			}
 , 			{
 				"box" : 				{
+					"bubble" : 1,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 430.0, 68.0, 20.0 ],
+					"patching_rect" : [ 165.0, 435.0, 85.0, 24.0 ],
 					"text" : "音量を変更"
 				}
 
@@ -3707,7 +3708,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 1260.0, 440.0, 505.0 ],
+					"patching_rect" : [ 15.0, 1260.0, 435.0, 505.0 ],
 					"proportion" : 0.5
 				}
 
@@ -4531,7 +4532,7 @@
 
 			}
  ],
-		"originid" : "pat-342",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-117" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-122" : [ "dial[3]", "dial[3]", 0 ],

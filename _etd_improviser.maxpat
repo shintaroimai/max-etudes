@@ -72,7 +72,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 677.0, 344.0, 264.0, 24.0 ],
-					"presentation_linecount" : 20,
 					"text" : "ピッチクラス（オクターブを無視した音名）"
 				}
 
@@ -132,7 +131,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.0, 7230.0, 116.0, 45.0 ],
+					"patching_rect" : [ 40.0, 7220.0, 116.0, 45.0 ],
 					"text" : "・旋律を跳躍させる\n・コード進行させる\n・"
 				}
 
@@ -9013,7 +9012,7 @@
 
 			}
  ],
-		"originid" : "pat-115",
+		"originid" : "pat-127",
 		"parameters" : 		{
 			"obj-200" : [ "number[2]", "number[1]", 0 ],
 			"obj-228" : [ "number[1]", "number[1]", 0 ],
