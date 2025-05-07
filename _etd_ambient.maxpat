@@ -15,6 +15,7 @@
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"subpatcher_template" : "grid55",
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
@@ -3304,7 +3305,7 @@
 
 			}
  ],
-		"originid" : "pat-6",
+		"originid" : "pat-3356",
 		"parameters" : 		{
 			"obj-106" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-84" : [ "vst~", "vst~", 0 ],
@@ -3323,7 +3324,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "DLSMusicDevice.maxsnap",
 				"bootpath" : "~/Documents/Max 9/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 9/Snapshots",
+				"patcherrelativepath" : "../../../../Documents/Max 9/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}

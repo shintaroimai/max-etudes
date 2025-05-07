@@ -769,8 +769,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 755.0, 1680.0, 41.0, 22.0 ],
-					"text" : "del 10"
+					"patching_rect" : [ 755.0, 1680.0, 51.0, 22.0 ],
+					"text" : "del 12.5"
 				}
 
 			}
@@ -781,8 +781,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 555.0, 1680.0, 41.0, 22.0 ],
-					"text" : "del 10"
+					"patching_rect" : [ 555.0, 1680.0, 51.0, 22.0 ],
+					"text" : "del 12.5"
 				}
 
 			}
@@ -793,8 +793,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 355.0, 1680.0, 41.0, 22.0 ],
-					"text" : "del 10"
+					"patching_rect" : [ 355.0, 1680.0, 51.0, 22.0 ],
+					"text" : "del 12.5"
 				}
 
 			}
@@ -1516,8 +1516,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 755.0, 1200.0, 41.0, 22.0 ],
-					"text" : "del 10"
+					"patching_rect" : [ 755.0, 1200.0, 51.0, 22.0 ],
+					"text" : "del 12.5"
 				}
 
 			}
@@ -1528,8 +1528,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 555.0, 1200.0, 41.0, 22.0 ],
-					"text" : "del 10"
+					"patching_rect" : [ 555.0, 1200.0, 51.0, 22.0 ],
+					"text" : "del 12.5"
 				}
 
 			}
@@ -1540,8 +1540,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 355.0, 1200.0, 41.0, 22.0 ],
-					"text" : "del 10"
+					"patching_rect" : [ 355.0, 1200.0, 51.0, 22.0 ],
+					"text" : "del 12.5"
 				}
 
 			}
@@ -1891,8 +1891,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 398.0, 1199.0, 118.0, 24.0 ],
-					"text" : "bangを10ms遅延"
+					"patching_rect" : [ 408.0, 1199.0, 128.0, 24.0 ],
+					"text" : "bangを12.5ms遅延"
 				}
 
 			}
@@ -2696,7 +2696,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 1115.0, 795.0, 465.0 ],
+					"patching_rect" : [ 20.0, 1119.5, 800.0, 460.5 ],
 					"proportion" : 0.5
 				}
 
@@ -4110,7 +4110,7 @@
 
 			}
  ],
-		"originid" : "pat-111",
+		"originid" : "pat-2379",
 		"parameters" : 		{
 			"obj-10" : [ "live.gain~[10]", "live.gain~", 0 ],
 			"obj-103" : [ "live.gain~[4]", "live.gain~", 0 ],

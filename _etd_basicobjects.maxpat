@@ -404,7 +404,7 @@
 
 							}
  ],
-						"originid" : "pat-716"
+						"originid" : "pat-3368"
 					}
 ,
 					"patching_rect" : [ 235.0, 180.0, 37.0, 23.0 ],
@@ -600,7 +600,7 @@
 
 							}
  ],
-						"originid" : "pat-718"
+						"originid" : "pat-3370"
 					}
 ,
 					"patching_rect" : [ 190.0, 90.0, 36.0, 23.0 ],
@@ -968,7 +968,7 @@
 
 							}
  ],
-						"originid" : "pat-720"
+						"originid" : "pat-3372"
 					}
 ,
 					"patching_rect" : [ 205.0, 120.0, 45.0, 23.0 ],
@@ -1006,13 +1006,37 @@
 						"gridsnaponopen" : 2,
 						"objectsnaponopen" : 0,
 						"showontab" : 1,
+						"integercoordinates" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-32",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 355.0, 395.0, 157.0, 21.0 ],
+									"presentation_linecount" : 4,
+									"text" : "x：ショートカットリスト"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 355.0, 95.0, 207.0, 21.0 ],
+									"text" : "cmd (+shift) +i：インスペクタ表示"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-27",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 215.0, 177.0, 21.0 ],
+									"patching_rect" : [ 640.0, 415.0, 177.0, 21.0 ],
 									"text" : "cmd+y：オブジェクトを整列"
 								}
 
@@ -1023,7 +1047,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 170.0, 224.0, 21.0 ],
+									"patching_rect" : [ 640.0, 370.0, 224.0, 21.0 ],
 									"text" : "cmd+j：オブジェクトサイズを最適化"
 								}
 
@@ -1034,7 +1058,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 420.0, 285.0, 131.0, 21.0 ],
+									"patching_rect" : [ 640.0, 325.0, 131.0, 21.0 ],
 									"text" : "opt+click: ヘルプ表示"
 								}
 
@@ -1045,7 +1069,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 280.0, 156.0, 21.0 ],
+									"patching_rect" : [ 640.0, 230.0, 156.0, 21.0 ],
 									"text" : "cmd+option+d：置き換え"
 								}
 
@@ -1058,7 +1082,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 580.0, 410.0, 24.0, 24.0 ]
+									"patching_rect" : [ 325.0, 235.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1070,7 +1094,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 580.0, 370.0, 24.0, 24.0 ]
+									"patching_rect" : [ 325.0, 195.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1082,7 +1106,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 580.0, 330.0, 24.0, 24.0 ]
+									"patching_rect" : [ 325.0, 155.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1092,7 +1116,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 370.0, 234.0, 21.0 ],
+									"patching_rect" : [ 355.0, 195.0, 234.0, 21.0 ],
 									"text" : "shift+drag：オブジェクト挿入／取外し"
 								}
 
@@ -1103,7 +1127,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 325.0, 120.0, 21.0 ],
+									"patching_rect" : [ 640.0, 275.0, 120.0, 21.0 ],
 									"text" : "control+drag：複製"
 								}
 
@@ -1114,7 +1138,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 760.0, 85.0, 55.0, 21.0 ],
+									"patching_rect" : [ 355.0, 345.0, 55.0, 21.0 ],
 									"text" : "Z：縮小"
 								}
 
@@ -1125,31 +1149,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 760.0, 40.0, 54.0, 21.0 ],
+									"patching_rect" : [ 355.0, 295.0, 54.0, 21.0 ],
 									"text" : "z：拡大"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-8",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 440.0, 105.0, 125.0, 21.0 ],
-									"text" : "s：slider スライダー"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-5",
-									"maxclass" : "slider",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 105.0, 20.0, 140.0 ]
 								}
 
 							}
@@ -1159,7 +1160,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 130.0, 87.0, 21.0 ],
+									"patching_rect" : [ 640.0, 185.0, 87.0, 21.0 ],
 									"text" : "cmd+d：複製"
 								}
 
@@ -1170,7 +1171,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 85.0, 101.0, 21.0 ],
+									"patching_rect" : [ 640.0, 140.0, 101.0, 21.0 ],
 									"text" : "cmd+Z：リドゥ"
 								}
 
@@ -1181,7 +1182,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 615.0, 40.0, 112.0, 21.0 ],
+									"patching_rect" : [ 640.0, 95.0, 112.0, 21.0 ],
 									"text" : "cmd+z：アンドゥ"
 								}
 
@@ -1192,7 +1193,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.0, 355.0, 104.0, 21.0 ],
+									"patching_rect" : [ 80.0, 345.0, 104.0, 21.0 ],
 									"text" : "t：trigger トグル"
 								}
 
@@ -1205,7 +1206,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 355.0, 24.0, 24.0 ]
+									"patching_rect" : [ 55.0, 345.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1215,7 +1216,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 115.0, 305.0, 107.0, 21.0 ],
+									"patching_rect" : [ 80.0, 295.0, 107.0, 21.0 ],
 									"text" : "b：button ボタン"
 								}
 
@@ -1228,7 +1229,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 305.0, 24.0, 24.0 ]
+									"patching_rect" : [ 55.0, 295.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -1238,7 +1239,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 255.0, 196.0, 21.0 ],
+									"patching_rect" : [ 105.0, 245.0, 196.0, 21.0 ],
 									"text" : "f：flonum 小数ナンバーボックス"
 								}
 
@@ -1252,7 +1253,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 255.0, 50.0, 23.0 ]
+									"patching_rect" : [ 55.0, 245.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1262,7 +1263,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 205.0, 175.0, 21.0 ],
+									"patching_rect" : [ 105.0, 195.0, 175.0, 21.0 ],
 									"text" : "i：number ナンバーボックス"
 								}
 
@@ -1275,7 +1276,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 90.0, 205.0, 50.0, 23.0 ]
+									"patching_rect" : [ 55.0, 195.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1285,7 +1286,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 155.0, 206.0, 21.0 ],
+									"patching_rect" : [ 105.0, 145.0, 206.0, 21.0 ],
 									"text" : "m：message メッセージボックス"
 								}
 
@@ -1297,7 +1298,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 155.0, 50.0, 23.0 ]
+									"patching_rect" : [ 55.0, 145.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1307,7 +1308,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 195.0, 105.0, 145.0, 21.0 ],
+									"patching_rect" : [ 160.0, 95.0, 145.0, 21.0 ],
 									"text" : "n：object オブジェクト"
 								}
 
@@ -1319,7 +1320,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 105.0, 100.0, 23.0 ]
+									"patching_rect" : [ 55.0, 95.0, 100.0, 23.0 ]
 								}
 
 							}
@@ -1350,7 +1351,7 @@
 
 							}
  ],
-						"originid" : "pat-722"
+						"originid" : "pat-3374"
 					}
 ,
 					"patching_rect" : [ 15.0, 90.0, 66.0, 23.0 ],
@@ -1426,7 +1427,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-724"
+						"originid" : "pat-3376"
 					}
 ,
 					"patching_rect" : [ 365.0, 120.0, 68.0, 23.0 ],
@@ -1624,7 +1625,7 @@
 
 											}
  ],
-										"originid" : "pat-730",
+										"originid" : "pat-3382",
 										"styles" : [ 											{
 												"name" : "grid55",
 												"parentstyle" : "",
@@ -1704,7 +1705,7 @@
 
 							}
  ],
-						"originid" : "pat-726"
+						"originid" : "pat-3378"
 					}
 ,
 					"patching_rect" : [ 350.0, 90.0, 83.0, 23.0 ],
@@ -1748,7 +1749,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 250.0, 255.0, 21.0 ],
+									"patching_rect" : [ 120.0, 280.0, 255.0, 21.0 ],
 									"text" : "初期アーギュメントの表示は変わらない！"
 								}
 
@@ -1759,7 +1760,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 635.0, 380.0, 34.0, 21.0 ],
+									"patching_rect" : [ 770.0, 370.0, 34.0, 21.0 ],
 									"text" : "累乗"
 								}
 
@@ -1770,7 +1771,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 635.0, 345.0, 125.0, 21.0 ],
+									"patching_rect" : [ 770.0, 335.0, 125.0, 21.0 ],
 									"text" : "剰余（割った余り）"
 								}
 
@@ -1782,7 +1783,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 605.0, 345.0, 29.5, 23.0 ],
+									"patching_rect" : [ 740.0, 335.0, 29.5, 23.0 ],
 									"text" : "%"
 								}
 
@@ -1794,7 +1795,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 605.0, 380.0, 32.0, 23.0 ],
+									"patching_rect" : [ 740.0, 370.0, 32.0, 23.0 ],
 									"text" : "pow"
 								}
 
@@ -1805,7 +1806,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 450.0, 255.0, 34.0, 21.0 ],
+									"patching_rect" : [ 430.0, 285.0, 34.0, 21.0 ],
 									"text" : "減数"
 								}
 
@@ -1818,7 +1819,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 490.0, 290.0, 50.0, 23.0 ]
+									"patching_rect" : [ 470.0, 320.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1829,7 +1830,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 490.0, 255.0, 29.5, 23.0 ],
+									"patching_rect" : [ 470.0, 285.0, 29.5, 23.0 ],
 									"text" : "!- 3"
 								}
 
@@ -1840,7 +1841,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 520.0, 255.0, 47.0, 21.0 ],
+									"patching_rect" : [ 500.0, 285.0, 47.0, 21.0 ],
 									"text" : "被減数"
 								}
 
@@ -1853,7 +1854,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 290.0, 50.0, 23.0 ]
+									"patching_rect" : [ 400.0, 320.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1864,7 +1865,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 420.0, 255.0, 29.5, 23.0 ],
+									"patching_rect" : [ 400.0, 285.0, 29.5, 23.0 ],
 									"text" : "- 3"
 								}
 
@@ -1877,7 +1878,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 220.0, 50.0, 23.0 ]
+									"patching_rect" : [ 400.0, 250.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1887,7 +1888,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 520.0, 115.0, 294.0, 21.0 ],
+									"patching_rect" : [ 500.0, 145.0, 294.0, 21.0 ],
 									"text" : "小数の計算にはアーギュメントで小数を設定する"
 								}
 
@@ -1901,7 +1902,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 490.0, 150.0, 50.0, 23.0 ]
+									"patching_rect" : [ 470.0, 180.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1912,7 +1913,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "float" ],
-									"patching_rect" : [ 490.0, 115.0, 29.5, 23.0 ],
+									"patching_rect" : [ 470.0, 145.0, 29.5, 23.0 ],
 									"text" : "/ 3."
 								}
 
@@ -1926,7 +1927,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 150.0, 50.0, 23.0 ]
+									"patching_rect" : [ 400.0, 180.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1937,7 +1938,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 420.0, 115.0, 29.5, 23.0 ],
+									"patching_rect" : [ 400.0, 145.0, 29.5, 23.0 ],
 									"text" : "/ 3"
 								}
 
@@ -1950,7 +1951,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 420.0, 80.0, 50.0, 23.0 ]
+									"patching_rect" : [ 400.0, 110.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1960,7 +1961,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 220.0, 210.0, 86.0, 21.0 ],
+									"patching_rect" : [ 200.0, 240.0, 86.0, 21.0 ],
 									"text" : "加算値を変更"
 								}
 
@@ -1971,7 +1972,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.0, 120.0, 216.0, 21.0 ],
+									"patching_rect" : [ 120.0, 150.0, 216.0, 21.0 ],
 									"text" : "アーギュメントに設定した値を加算"
 								}
 
@@ -1984,7 +1985,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 170.0, 210.0, 50.0, 23.0 ]
+									"patching_rect" : [ 150.0, 240.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -1996,7 +1997,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 110.0, 290.0, 50.0, 23.0 ]
+									"patching_rect" : [ 90.0, 320.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -2007,7 +2008,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 110.0, 250.0, 29.5, 23.0 ],
+									"patching_rect" : [ 90.0, 280.0, 29.5, 23.0 ],
 									"text" : "+ 3"
 								}
 
@@ -2020,7 +2021,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 110.0, 210.0, 50.0, 23.0 ]
+									"patching_rect" : [ 90.0, 240.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -2032,7 +2033,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 110.0, 160.0, 50.0, 23.0 ]
+									"patching_rect" : [ 90.0, 190.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -2043,7 +2044,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 110.0, 120.0, 29.5, 23.0 ],
+									"patching_rect" : [ 90.0, 150.0, 29.5, 23.0 ],
 									"text" : "+ 3"
 								}
 
@@ -2056,7 +2057,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 110.0, 80.0, 50.0, 23.0 ]
+									"patching_rect" : [ 90.0, 110.0, 50.0, 23.0 ]
 								}
 
 							}
@@ -2078,7 +2079,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 460.0, 450.0, 29.5, 23.0 ],
+									"patching_rect" : [ 695.0, 440.0, 29.5, 23.0 ],
 									"text" : "!/"
 								}
 
@@ -2090,7 +2091,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 460.0, 380.0, 29.5, 23.0 ],
+									"patching_rect" : [ 695.0, 370.0, 29.5, 23.0 ],
 									"text" : "!-"
 								}
 
@@ -2102,7 +2103,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 420.0, 450.0, 29.5, 23.0 ],
+									"patching_rect" : [ 655.0, 440.0, 29.5, 23.0 ],
 									"text" : "/"
 								}
 
@@ -2114,7 +2115,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 420.0, 415.0, 29.5, 23.0 ],
+									"patching_rect" : [ 655.0, 405.0, 29.5, 23.0 ],
 									"text" : "*"
 								}
 
@@ -2126,7 +2127,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 420.0, 380.0, 29.5, 23.0 ],
+									"patching_rect" : [ 655.0, 370.0, 29.5, 23.0 ],
 									"text" : "-"
 								}
 
@@ -2138,7 +2139,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 420.0, 345.0, 29.5, 23.0 ],
+									"patching_rect" : [ 655.0, 335.0, 29.5, 23.0 ],
 									"text" : "+"
 								}
 
@@ -2240,7 +2241,7 @@
 
 							}
  ],
-						"originid" : "pat-732"
+						"originid" : "pat-3384"
 					}
 ,
 					"patching_rect" : [ 75.0, 210.0, 76.0, 23.0 ],
@@ -2272,7 +2273,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 948.0, 509.0 ],
+						"rect" : [ 996.0, 140.0, 948.0, 509.0 ],
 						"default_fontsize" : 13.0,
 						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 2,
@@ -2669,7 +2670,7 @@
 
 							}
  ],
-						"originid" : "pat-734"
+						"originid" : "pat-3386"
 					}
 ,
 					"patching_rect" : [ 380.0, 150.0, 114.0, 23.0 ],
@@ -2724,7 +2725,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 735.0, 230.0, 19.0, 21.0 ],
+									"patching_rect" : [ 735.0, 215.0, 19.0, 21.0 ],
 									"text" : "2"
 								}
 
@@ -2735,7 +2736,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 790.0, 230.0, 19.0, 21.0 ],
+									"patching_rect" : [ 790.0, 215.0, 19.0, 21.0 ],
 									"text" : "1"
 								}
 
@@ -2746,7 +2747,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 780.0, 255.0, 45.0, 23.0 ],
+									"patching_rect" : [ 780.0, 240.0, 45.0, 23.0 ],
 									"text" : "print L"
 								}
 
@@ -2757,7 +2758,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 725.0, 255.0, 47.0, 23.0 ],
+									"patching_rect" : [ 725.0, 240.0, 47.0, 23.0 ],
 									"text" : "print R"
 								}
 
@@ -2793,7 +2794,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 60.0, 215.0, 60.0, 21.0 ],
-									"text" : "送出順："
+									"text" : "送信順："
 								}
 
 							}
@@ -2955,12 +2956,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-30",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 30.0, 827.0, 50.0 ],
-									"text" : "t (trigger): 受け取ったメッセージを、アーギュメントで指定した型に変換し、アーギュメント順に対応するアウトレットより、右から左の順で送り出す\n型の種類と表記：int (i) 整数, float (f) 小数, bang (b), symbol (s) 文字列, list (l)"
+									"patching_rect" : [ 30.0, 30.0, 847.0, 36.0 ],
+									"text" : "t (trigger): 受信したメッセージを、アーギュメントで指定した型に変換し、アーギュメント順に対応するアウトレットより、右から左の順で送信\n型の種類と表記：int (i) 整数, float (f) 小数, bang (b), symbol (s) 文字列, list (l)"
 								}
 
 							}
@@ -3303,7 +3304,7 @@
 
 							}
  ],
-						"originid" : "pat-736"
+						"originid" : "pat-3388"
 					}
 ,
 					"patching_rect" : [ 90.0, 240.0, 56.0, 23.0 ],
@@ -3674,7 +3675,7 @@
 
 							}
  ],
-						"originid" : "pat-738"
+						"originid" : "pat-3390"
 					}
 ,
 					"patching_rect" : [ 220.0, 150.0, 49.0, 23.0 ],
@@ -4410,7 +4411,7 @@
 
 							}
  ],
-						"originid" : "pat-740"
+						"originid" : "pat-3392"
 					}
 ,
 					"patching_rect" : [ 105.0, 270.0, 63.0, 23.0 ],
@@ -4951,7 +4952,7 @@
 
 							}
  ],
-						"originid" : "pat-742"
+						"originid" : "pat-3394"
 					}
 ,
 					"patching_rect" : [ 60.0, 180.0, 35.0, 23.0 ],
@@ -5118,8 +5119,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 120.0, 345.0, 328.0, 21.0 ],
-									"text" : "第2インレットに受信したメッセージで内容を置換する"
+									"patching_rect" : [ 120.0, 345.0, 302.0, 21.0 ],
+									"text" : "第2インレットに受信したメッセージで内容を置換"
 								}
 
 							}
@@ -5363,7 +5364,7 @@
 
 							}
  ],
-						"originid" : "pat-744"
+						"originid" : "pat-3396"
 					}
 ,
 					"patching_rect" : [ 45.0, 150.0, 72.0, 23.0 ],
@@ -5395,7 +5396,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 996.0, 140.0, 948.0, 509.0 ],
+						"rect" : [ 0.0, 26.0, 948.0, 509.0 ],
 						"default_fontsize" : 13.0,
 						"gridsize" : [ 5.0, 5.0 ],
 						"gridsnaponopen" : 2,
@@ -5824,7 +5825,7 @@
 
 							}
  ],
-						"originid" : "pat-746"
+						"originid" : "pat-3398"
 					}
 ,
 					"patching_rect" : [ 250.0, 210.0, 40.0, 23.0 ],
@@ -6051,7 +6052,7 @@
 
 							}
  ],
-						"originid" : "pat-748"
+						"originid" : "pat-3400"
 					}
 ,
 					"patching_rect" : [ 30.0, 120.0, 48.0, 23.0 ],
@@ -6104,7 +6105,7 @@
 						"showontab" : 1,
 						"boxes" : [  ],
 						"lines" : [  ],
-						"originid" : "pat-750"
+						"originid" : "pat-3402"
 					}
 ,
 					"patching_rect" : [ 880.0, 440.0, 27.0, 23.0 ],
@@ -6115,7 +6116,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-714",
+		"originid" : "pat-3366",
 		"parameters" : 		{
 			"obj-6::obj-55" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{
@@ -6144,7 +6145,7 @@
 			}
 , 			{
 				"name" : "myplus.maxpat",
-				"bootpath" : "~/Desktop/max-etudes-BU",
+				"bootpath" : "~/Dropbox/_shintaro/GitHub/max-etudes",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

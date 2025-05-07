@@ -658,7 +658,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 3400.0, 117.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "6）5細部のアレンジ"
 				}
 
@@ -1198,7 +1197,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 549.0, 1944.0, 240.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "サウンドファイルをドラッグ＆ドロップ"
 				}
 
@@ -1431,7 +1429,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 1795.0, 354.0, 20.0 ],
-					"presentation_linecount" : 5,
 					"text" : "4）2次元インターフェースの活用，サウンドファイルの入れ替え"
 				}
 
@@ -1965,7 +1962,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 121.0, 909.0, 350.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "1と-1が切り替わる瞬間のみ第1インレットの入力を出力する"
 				}
 
@@ -1978,7 +1974,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.0, 873.0, 410.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "入力値の上昇で1、下降で-1を出力：phasor~の繰り返しポイントを検出"
 				}
 
@@ -2050,7 +2045,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 630.0, 277.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "2）再生位置を変えたときのクリックノイズを除去"
 				}
 
@@ -2238,7 +2232,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 498.0, 240.0, 169.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "ドラッグで再生位置を変更"
 				}
 
@@ -2272,8 +2265,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 380.0, 145.0, 20.0 ],
-					"text" : "注：20Hzの1周期は50ms"
+					"patching_rect" : [ 340.0, 380.0, 181.0, 20.0 ],
+					"text" : "注：50msは20Hzの1周期の長さ"
 				}
 
 			}
@@ -2309,7 +2302,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 80.0, 379.0, 258.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "再生位置から+50msまでを20Hzで繰り返す"
 				}
 
@@ -2322,7 +2314,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 80.0, 309.0, 136.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "0~50にスケーリング"
 				}
 
@@ -3974,7 +3965,7 @@
 
 			}
  ],
-		"originid" : "pat-349",
+		"originid" : "pat-3336",
 		"parameters" : 		{
 			"obj-135" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-243" : [ "live.gain~[5]", "live.gain~", 0 ],

@@ -15,6 +15,7 @@
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"subpatcher_template" : "grid55",
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
 				"box" : 				{
 					"bubble" : 1,
@@ -23,7 +24,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 161.5, 774.0, 104.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "0でなければ真"
 				}
 
@@ -60,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 60.0, 70.0, 102.0, 24.0 ],
-					"presentation_linecount" : 4,
 					"text" : "ランダムon/off"
 				}
 
@@ -253,7 +252,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 314.0, 844.0, 227.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "弾かれているノートナンバーのみ抽出"
 				}
 
@@ -278,7 +276,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.0, 1055.0, 204.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "弾かれたノートナンバーを左詰に"
 				}
 
@@ -303,7 +300,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 424.0, 369.0, 294.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "ベロシティが1以上のときにノートナンバーを通す"
 				}
 
@@ -316,7 +312,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 440.0, 510.0, 192.0, 24.0 ],
-					"presentation_linecount" : 7,
 					"text" : "弾かれたノートナンバーを記憶"
 				}
 
@@ -1142,7 +1137,7 @@
 
 			}
  ],
-		"originid" : "pat-2269",
+		"originid" : "pat-3360",
 		"parameters" : 		{
 			"obj-64" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{
@@ -1159,7 +1154,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "KEYboard.maxpat",
-				"bootpath" : "~/Desktop/max-etudes-BU",
+				"bootpath" : "~/Dropbox/_shintaro/GitHub/max-etudes",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

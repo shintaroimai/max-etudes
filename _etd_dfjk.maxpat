@@ -11,12 +11,25 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 42.0, 114.0, 1111.0, 1167.0 ],
-		"bglocked" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"subpatcher_template" : "grid55",
+		"integercoordinates" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 374.0, 534.0, 360.0, 24.0 ],
+					"presentation_linecount" : 2,
+					"text" : "サウンドファイルの入ったフォルダをドラッグ＆ドロップ"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-62",
 					"maxclass" : "comment",
@@ -2482,7 +2495,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 355.0, 744.0, 222.0, 24.0 ],
-					"text" : "受信値を%dと置き換えて全体を出力"
+					"text" : "%dを受信値に置き換えて全体を出力"
 				}
 
 			}
@@ -3968,7 +3981,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 415.0, 575.0, 555.0 ],
+					"patching_rect" : [ 20.0, 415.0, 730.0, 555.0 ],
 					"proportion" : 0.5
 				}
 
@@ -6518,7 +6531,7 @@
 
 			}
  ],
-		"originid" : "pat-10",
+		"originid" : "pat-3338",
 		"parameters" : 		{
 			"obj-108" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-160" : [ "live.gain~[3]", "live.gain~", 0 ],
@@ -6563,7 +6576,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dfjkvoice.maxpat",
-				"bootpath" : "~/Desktop/max-etudes-BU",
+				"bootpath" : "~/Dropbox/_shintaro/GitHub/max-etudes",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
