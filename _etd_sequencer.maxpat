@@ -2333,7 +2333,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 1080.0, 29.5, 22.0 ],
-					"text" : "39"
+					"text" : "35"
 				}
 
 			}
@@ -2487,7 +2487,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 555.0, 29.5, 22.0 ],
-					"text" : "39"
+					"text" : "35"
 				}
 
 			}
@@ -2691,7 +2691,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 15.0, 495.0, 230.0 ],
+					"patching_rect" : [ 20.0, 20.0, 495.0, 225.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2826,7 +2826,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
-					"order" : 3,
+					"order" : 0,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2834,7 +2834,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-235", 0 ],
-					"order" : 2,
+					"order" : 3,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2842,7 +2842,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-236", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -2850,7 +2850,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-237", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -4127,7 +4127,7 @@
 
 			}
  ],
-		"originid" : "pat-205",
+		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-150" : [ "number[1]", "number[1]", 0 ],
 			"obj-196" : [ "number", "number", 0 ],
