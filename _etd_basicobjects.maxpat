@@ -404,7 +404,7 @@
 
 							}
  ],
-						"originid" : "pat-34"
+						"originid" : "pat-969"
 					}
 ,
 					"patching_rect" : [ 235.0, 180.0, 37.0, 23.0 ],
@@ -600,7 +600,7 @@
 
 							}
  ],
-						"originid" : "pat-36"
+						"originid" : "pat-971"
 					}
 ,
 					"patching_rect" : [ 190.0, 90.0, 36.0, 23.0 ],
@@ -968,7 +968,7 @@
 
 							}
  ],
-						"originid" : "pat-38"
+						"originid" : "pat-973"
 					}
 ,
 					"patching_rect" : [ 205.0, 120.0, 45.0, 23.0 ],
@@ -1025,7 +1025,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 340.0, 240.0, 300.0, 21.0 ],
-									"presentation_linecount" : 3,
 									"text" : "cmd + opt  + e：プレゼンテーションモードに切替"
 								}
 
@@ -1037,7 +1036,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 340.0, 90.0, 275.0, 21.0 ],
-									"presentation_linecount" : 3,
 									"text" : "cmd + e：実行モード／エディットモード切替"
 								}
 
@@ -1059,8 +1057,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 340.0, 140.0, 207.0, 21.0 ],
-									"text" : "cmd (+shift) +i：インスペクタ表示"
+									"patching_rect" : [ 340.0, 140.0, 218.0, 21.0 ],
+									"text" : "cmd (+ shift) + i：インスペクタ表示"
 								}
 
 							}
@@ -1092,8 +1090,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 680.0, 335.0, 138.0, 21.0 ],
-									"text" : "opt + click: ヘルプ表示"
+									"patching_rect" : [ 680.0, 335.0, 144.0, 21.0 ],
+									"text" : "opt + click：ヘルプ表示"
 								}
 
 							}
@@ -1125,8 +1123,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 680.0, 290.0, 127.0, 21.0 ],
-									"text" : "control + drag：複製"
+									"patching_rect" : [ 680.0, 290.0, 106.0, 21.0 ],
+									"text" : "opt + drag：複製"
 								}
 
 							}
@@ -1335,7 +1333,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-40"
+						"originid" : "pat-975"
 					}
 ,
 					"patching_rect" : [ 15.0, 90.0, 66.0, 23.0 ],
@@ -1411,7 +1409,7 @@
 							}
  ],
 						"lines" : [  ],
-						"originid" : "pat-42"
+						"originid" : "pat-977"
 					}
 ,
 					"patching_rect" : [ 365.0, 120.0, 68.0, 23.0 ],
@@ -1493,7 +1491,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 650.0, 190.0, 202.0, 34.0 ],
-									"presentation_linecount" : 2,
 									"text" : "bpatcher：アブストラクションの\nウインドウを表示できる"
 								}
 
@@ -1679,7 +1676,7 @@
 
 											}
  ],
-										"originid" : "pat-48",
+										"originid" : "pat-985",
 										"styles" : [ 											{
 												"name" : "grid55",
 												"parentstyle" : "",
@@ -1780,7 +1777,7 @@
 
 							}
  ],
-						"originid" : "pat-44"
+						"originid" : "pat-979"
 					}
 ,
 					"patching_rect" : [ 350.0, 90.0, 83.0, 23.0 ],
@@ -2316,7 +2313,7 @@
 
 							}
  ],
-						"originid" : "pat-50"
+						"originid" : "pat-987"
 					}
 ,
 					"patching_rect" : [ 75.0, 210.0, 76.0, 23.0 ],
@@ -2745,7 +2742,7 @@
 
 							}
  ],
-						"originid" : "pat-52"
+						"originid" : "pat-989"
 					}
 ,
 					"patching_rect" : [ 380.0, 150.0, 114.0, 23.0 ],
@@ -3379,7 +3376,7 @@
 
 							}
  ],
-						"originid" : "pat-54"
+						"originid" : "pat-991"
 					}
 ,
 					"patching_rect" : [ 90.0, 240.0, 56.0, 23.0 ],
@@ -3750,7 +3747,7 @@
 
 							}
  ],
-						"originid" : "pat-56"
+						"originid" : "pat-993"
 					}
 ,
 					"patching_rect" : [ 220.0, 150.0, 49.0, 23.0 ],
@@ -4486,7 +4483,7 @@
 
 							}
  ],
-						"originid" : "pat-58"
+						"originid" : "pat-995"
 					}
 ,
 					"patching_rect" : [ 105.0, 270.0, 63.0, 23.0 ],
@@ -5027,7 +5024,7 @@
 
 							}
  ],
-						"originid" : "pat-60"
+						"originid" : "pat-997"
 					}
 ,
 					"patching_rect" : [ 60.0, 180.0, 35.0, 23.0 ],
@@ -5439,7 +5436,7 @@
 
 							}
  ],
-						"originid" : "pat-62"
+						"originid" : "pat-999"
 					}
 ,
 					"patching_rect" : [ 45.0, 150.0, 72.0, 23.0 ],
@@ -5900,7 +5897,7 @@
 
 							}
  ],
-						"originid" : "pat-64"
+						"originid" : "pat-1001"
 					}
 ,
 					"patching_rect" : [ 250.0, 210.0, 40.0, 23.0 ],
@@ -6127,7 +6124,7 @@
 
 							}
  ],
-						"originid" : "pat-66"
+						"originid" : "pat-1003"
 					}
 ,
 					"patching_rect" : [ 30.0, 120.0, 48.0, 23.0 ],
@@ -6180,7 +6177,7 @@
 						"showontab" : 1,
 						"boxes" : [  ],
 						"lines" : [  ],
-						"originid" : "pat-68"
+						"originid" : "pat-1005"
 					}
 ,
 					"patching_rect" : [ 880.0, 440.0, 27.0, 23.0 ],
@@ -6191,7 +6188,7 @@
 			}
  ],
 		"lines" : [  ],
-		"originid" : "pat-32",
+		"originid" : "pat-967",
 		"parameters" : 		{
 			"obj-6::obj-55" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{
