@@ -4,18 +4,42 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 114.0, 672.0, 1173.0 ],
+		"rect" : [ 42.0, 114.0, 975.0, 1173.0 ],
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
 		"subpatcher_template" : "grid55",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 637.0, 2505.5, 202.0, 24.0 ],
+					"text" : "インスペクタでArgumentsを確認"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-3",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 436.0, 2475.0, 348.0, 24.0 ],
+					"text" : "ctrl + clickで Object/Open Original myseclight.maxpat を選択"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "comment",
@@ -2766,7 +2790,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 2250.0, 630.0, 355.0 ],
+					"patching_rect" : [ 20.0, 2250.0, 830.0, 355.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2781,7 +2805,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 2620.0, 630.0, 685.0 ],
+					"patching_rect" : [ 20.0, 2620.0, 830.0, 685.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2796,7 +2820,7 @@
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 20.0, 3320.0, 630.0, 355.0 ],
+					"patching_rect" : [ 20.0, 3320.0, 830.0, 355.0 ],
 					"proportion" : 0.5
 				}
 
@@ -2826,14 +2850,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-234", 0 ],
-					"order" : 0,
-					"source" : [ "obj-120", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-235", 0 ],
 					"order" : 3,
 					"source" : [ "obj-120", 0 ]
 				}
@@ -2841,7 +2857,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-236", 0 ],
+					"destination" : [ "obj-235", 0 ],
 					"order" : 2,
 					"source" : [ "obj-120", 0 ]
 				}
@@ -2849,8 +2865,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-237", 0 ],
+					"destination" : [ "obj-236", 0 ],
 					"order" : 1,
+					"source" : [ "obj-120", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-237", 0 ],
+					"order" : 0,
 					"source" : [ "obj-120", 0 ]
 				}
 
@@ -4127,7 +4151,6 @@
 
 			}
  ],
-		"originid" : "pat-4",
 		"parameters" : 		{
 			"obj-150" : [ "number[1]", "number[1]", 0 ],
 			"obj-196" : [ "number", "number", 0 ],
