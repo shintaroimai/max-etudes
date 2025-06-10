@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -538,7 +538,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.0, 6880.0, 59.0, 22.0 ],
-					"text" : "random 3"
+					"text" : "random 4"
 				}
 
 			}
@@ -1821,7 +1821,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 6880.0, 59.0, 22.0 ],
-					"text" : "random 3"
+					"text" : "random 4"
 				}
 
 			}
@@ -2437,7 +2437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 276.0, 3069.0, 118.0, 24.0 ],
-					"text" : "0~4の乱数を出力"
+					"text" : "0~3の乱数を出力"
 				}
 
 			}
@@ -2991,7 +2991,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 5565.0, 59.0, 22.0 ],
-					"text" : "random 3"
+					"text" : "random 4"
 				}
 
 			}
@@ -3565,7 +3565,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 4250.0, 59.0, 22.0 ],
-					"text" : "random 3"
+					"text" : "random 4"
 				}
 
 			}
@@ -4001,7 +4001,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 215.0, 3070.0, 59.0, 22.0 ],
-					"text" : "random 3"
+					"text" : "random 4"
 				}
 
 			}
@@ -4799,7 +4799,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "float" ],
 					"patching_rect" : [ 40.0, 2345.0, 108.0, 22.0 ],
-					"text" : "makenote 120 100"
+					"text" : "makenote 120 250"
 				}
 
 			}
@@ -9012,7 +9012,6 @@
 
 			}
  ],
-		"originid" : "pat-127",
 		"parameters" : 		{
 			"obj-200" : [ "number[2]", "number[1]", 0 ],
 			"obj-228" : [ "number[1]", "number[1]", 0 ],
