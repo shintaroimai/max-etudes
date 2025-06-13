@@ -4,13 +4,14 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 42.0, 114.0, 756.0, 1173.0 ],
+		"bglocked" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -1137,7 +1138,6 @@
 
 			}
  ],
-		"originid" : "pat-3360",
 		"parameters" : 		{
 			"obj-64" : [ "number", "number", 0 ],
 			"parameterbanks" : 			{
@@ -1154,7 +1154,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "KEYboard.maxpat",
-				"bootpath" : "~/Dropbox/_shintaro/GitHub/max-etudes",
+				"bootpath" : "~/Desktop/max-etudes-BU",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

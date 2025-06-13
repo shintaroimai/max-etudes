@@ -4,13 +4,14 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 213.0, 114.0, 902.0, 1168.0 ],
+		"rect" : [ 41.0, 114.0, 902.0, 1168.0 ],
+		"bglocked" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -3965,7 +3966,6 @@
 
 			}
  ],
-		"originid" : "pat-3336",
 		"parameters" : 		{
 			"obj-135" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-243" : [ "live.gain~[5]", "live.gain~", 0 ],

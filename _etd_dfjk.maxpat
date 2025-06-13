@@ -4,13 +4,14 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
 		"rect" : [ 42.0, 114.0, 1111.0, 1167.0 ],
+		"bglocked" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -24,7 +25,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 374.0, 534.0, 360.0, 24.0 ],
-					"presentation_linecount" : 2,
 					"text" : "サウンドファイルの入ったフォルダをドラッグ＆ドロップ"
 				}
 
@@ -6531,7 +6531,6 @@
 
 			}
  ],
-		"originid" : "pat-3338",
 		"parameters" : 		{
 			"obj-108" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-160" : [ "live.gain~[3]", "live.gain~", 0 ],
@@ -6576,7 +6575,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "dfjkvoice.maxpat",
-				"bootpath" : "~/Dropbox/_shintaro/GitHub/max-etudes",
+				"bootpath" : "~/Desktop/max-etudes-BU",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

@@ -4,13 +4,14 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 115.0, 1106.0, 1174.0 ],
+		"rect" : [ 34.0, 114.0, 1106.0, 1174.0 ],
+		"bglocked" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -406,7 +407,7 @@
 					"patching_rect" : [ 55.0, 4580.0, 160.0, 145.0 ],
 					"range" : 17,
 					"size" : 16,
-					"table_data" : [ 0, 0, 11, 0, 7, 4, 7, 13, 7, 3, 9, 7, 11, 9, 13, 10, 0 ]
+					"table_data" : [ 0, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ]
 				}
 
 			}
@@ -6664,7 +6665,6 @@
 
 			}
  ],
-		"originid" : "pat-8",
 		"parameters" : 		{
 			"obj-119" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-176" : [ "number[2]", "number", 0 ],
