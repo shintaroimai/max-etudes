@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -1123,8 +1123,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.0, 1524.0, 201.0, 24.0 ],
-					"text" : "0~1をサウンドファイル長に変換"
+					"patching_rect" : [ 386.0, 1524.0, 265.0, 24.0 ],
+					"text" : "サウンドファイル長に応じて0~1をmsに変換"
 				}
 
 			}
@@ -1944,8 +1944,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 296.0, 1314.0, 229.0, 24.0 ],
-					"text" : "サウンドファイル長から再生長を引く"
+					"patching_rect" : [ 296.0, 1314.0, 157.0, 24.0 ],
+					"text" : "全体長から再生長を引く"
 				}
 
 			}
@@ -2141,8 +2141,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 316.0, 1244.0, 106.0, 24.0 ],
-					"text" : "再生長（0~1）"
+					"patching_rect" : [ 316.0, 1244.0, 126.0, 24.0 ],
+					"text" : "再生長（0.1~0.5）"
 				}
 
 			}

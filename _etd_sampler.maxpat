@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 6,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -2252,63 +2252,40 @@
 			}
 , 			{
 				"box" : 				{
+					"format" : 6,
 					"id" : "obj-32",
-					"maxclass" : "number",
-					"minimum" : 0,
+					"maxclass" : "flonum",
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 200.0, 345.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1000 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[2]",
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "number[2]",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"varname" : "number[2]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"format" : 6,
 					"id" : "obj-31",
-					"maxclass" : "number",
-					"minimum" : 0,
+					"maxclass" : "flonum",
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 145.0, 345.0, 50.0, 22.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_initial" : [ 1000 ],
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1,
-							"parameter_longname" : "number[1]",
-							"parameter_modmode" : 0,
-							"parameter_shortname" : "number[1]",
-							"parameter_type" : 3
-						}
-
-					}
-,
 					"varname" : "number[1]"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"format" : 6,
 					"id" : "obj-30",
-					"maxclass" : "number",
-					"minimum" : 0,
+					"maxclass" : "flonum",
+					"minimum" : 0.0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
@@ -3810,8 +3787,6 @@
 			"obj-291" : [ "Attack[1]", "Attack", 0 ],
 			"obj-292" : [ "Sustain[1]", "Sustain", 0 ],
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-31" : [ "number[1]", "number[1]", 0 ],
-			"obj-32" : [ "number[2]", "number[2]", 0 ],
 			"obj-39" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-57" : [ "live.gain~[4]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
