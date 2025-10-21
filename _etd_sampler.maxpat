@@ -119,7 +119,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 748.0, 944.0, 258.0, 24.0 ],
-					"presentation_linecount" : 3,
 					"text" : "3000msぶんの録音スペースをメモリに確保"
 				}
 
@@ -3155,6 +3154,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-165", 0 ],
+					"order" : 1,
+					"source" : [ "obj-156", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
 					"order" : 0,
 					"source" : [ "obj-156", 0 ]
 				}
@@ -3163,7 +3170,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-156", 0 ]
 				}
 
@@ -4141,6 +4148,16 @@
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-39" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-57" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
 			"inherited_shortname" : 1
 		}
 ,

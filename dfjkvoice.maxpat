@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 5,
+			"revision" : 9,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 874.0, 115.0, 529.0, 1166.0 ],
+		"rect" : [ 34.0, 106.0, 876.0, 1166.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
@@ -474,7 +474,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.0, 965.0, 59.0, 22.0 ],
-					"text" : "random 4"
+					"text" : "random 7"
 				}
 
 			}
@@ -773,7 +773,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 380.0, 505.0, 59.0, 22.0 ],
-					"text" : "random 4"
+					"text" : "random 5"
 				}
 
 			}
@@ -2117,18 +2117,8 @@
 
 			}
  ],
-		"originid" : "pat-853",
 		"parameters" : 		{
 			"obj-108" : [ "live.gain~[7]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
