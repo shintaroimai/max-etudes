@@ -11,6 +11,7 @@
 ,
 		"classnamespace" : "box",
 		"rect" : [ 48.0, 114.0, 1024.0, 1167.0 ],
+		"bglocked" : 1,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 2,
 		"objectsnaponopen" : 0,
@@ -955,7 +956,7 @@
 			}
 , 			{
 				"box" : 				{
-					"buffername" : "mysample",
+					"buffername" : "mysample2",
 					"id" : "obj-205",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -3192,7 +3193,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -3201,6 +3202,14 @@
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"order" : 0,
+					"source" : [ "obj-161", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"order" : 1,
 					"source" : [ "obj-161", 0 ]
 				}
 
@@ -4148,29 +4157,19 @@
 			"obj-3" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-39" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-57" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
 			"inherited_shortname" : 1
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "KEYboard.maxpat",
-				"bootpath" : "~/Desktop/max-etudes-BU",
+				"bootpath" : "~/Dropbox/_shintaro/Max/max-etudes-BU",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mysampvoice.maxpat",
-				"bootpath" : "~/Desktop/max-etudes-BU",
+				"bootpath" : "~/Dropbox/_shintaro/Max/max-etudes-BU",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
