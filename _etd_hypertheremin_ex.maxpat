@@ -520,7 +520,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 1029.0, 1129.0, 121.0, 24.0 ],
+                    "patching_rect": [ 1039.0, 1129.0, 121.0, 24.0 ],
                     "text": "値をスムージング"
                 }
             },
@@ -620,8 +620,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 980.0, 1130.0, 47.0, 22.0 ],
-                    "text": "slide 2."
+                    "patching_rect": [ 980.0, 1130.0, 60.0, 22.0 ],
+                    "text": "slide 2. 2."
                 }
             },
             {
@@ -642,8 +642,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 780.0, 1130.0, 47.0, 22.0 ],
-                    "text": "slide 2."
+                    "patching_rect": [ 780.0, 1130.0, 60.0, 22.0 ],
+                    "text": "slide 2. 2."
                 }
             },
             {
@@ -664,8 +664,8 @@
                     "numinlets": 3,
                     "numoutlets": 1,
                     "outlettype": [ "float" ],
-                    "patching_rect": [ 880.0, 1130.0, 47.0, 22.0 ],
-                    "text": "slide 2."
+                    "patching_rect": [ 880.0, 1130.0, 60.0, 22.0 ],
+                    "text": "slide 2. 2."
                 }
             },
             {
@@ -2258,7 +2258,7 @@
                     "outlettype": [ "", "int", "", "" ],
                     "parameter_enable": 0,
                     "patching_rect": [ 840.0, 270.0, 180.0, 30.0 ],
-                    "text": "http://10.120.139.75:8086"
+                    "text": "http://192.168.0.240:8086"
                 }
             },
             {
@@ -3488,14 +3488,6 @@
             "obj-87": [ "number[35]", "number[34]", 0 ],
             "obj-96": [ "number[36]", "number[34]", 0 ],
             "obj-97": [ "number[37]", "number[34]", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0,
