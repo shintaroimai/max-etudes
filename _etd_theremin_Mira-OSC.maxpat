@@ -4,13 +4,12 @@
         "appversion": {
             "major": 9,
             "minor": 1,
-            "revision": 1,
+            "revision": 2,
             "architecture": "x64",
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 44.0, 100.0, 1277.0, 983.0 ],
-        "bglocked": 1,
+        "rect": [ 134.0, 178.0, 1277.0, 983.0 ],
         "gridsize": [ 10.0, 10.0 ],
         "gridsnaponopen": 2,
         "objectsnaponopen": 0,
@@ -1749,7 +1748,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 610.0, 560.0, 131.0, 20.0 ],
+                    "patching_rect": [ 610.0, 570.0, 131.0, 20.0 ],
                     "text": "2.1）Mirawebとの接続"
                 }
             },
@@ -2938,7 +2937,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 792.0, 843.0, 253.0, 24.0 ],
+                    "patching_rect": [ 792.0, 853.0, 253.0, 24.0 ],
                     "text": "このアドレスにWebブラウザからアクセス"
                 }
             },
@@ -2949,7 +2948,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 610.0, 640.0, 179.0, 22.0 ],
+                    "patching_rect": [ 610.0, 650.0, 179.0, 22.0 ],
                     "text": "getwebsocketport, gethostname"
                 }
             },
@@ -2960,7 +2959,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "bang" ],
-                    "patching_rect": [ 610.0, 600.0, 58.0, 22.0 ],
+                    "patching_rect": [ 610.0, 610.0, 58.0, 22.0 ],
                     "text": "loadbang"
                 }
             },
@@ -2972,8 +2971,8 @@
                     "numoutlets": 4,
                     "outlettype": [ "", "int", "", "" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 610.0, 840.0, 180.0, 30.0 ],
-                    "text": "http://172.17.12.177:8086"
+                    "patching_rect": [ 610.0, 850.0, 180.0, 30.0 ],
+                    "text": "http://192.168.183.87:8086"
                 }
             },
             {
@@ -2983,7 +2982,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "clear" ],
-                    "patching_rect": [ 610.0, 800.0, 47.0, 22.0 ],
+                    "patching_rect": [ 610.0, 810.0, 47.0, 22.0 ],
                     "text": "t l clear"
                 }
             },
@@ -2994,7 +2993,7 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "", "", "" ],
-                    "patching_rect": [ 610.0, 720.0, 118.0, 22.0 ],
+                    "patching_rect": [ 610.0, 730.0, 118.0, 22.0 ],
                     "text": "route hostname port"
                 }
             },
@@ -3005,7 +3004,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 610.0, 760.0, 131.0, 22.0 ],
+                    "patching_rect": [ 610.0, 770.0, 131.0, 22.0 ],
                     "text": "sprintf set http://%s:%d"
                 }
             },
@@ -3016,7 +3015,7 @@
                     "numinlets": 1,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 610.0, 680.0, 67.0, 22.0 ],
+                    "patching_rect": [ 610.0, 690.0, 67.0, 22.0 ],
                     "text": "mira.status"
                 }
             },
@@ -3314,6 +3313,17 @@
             {
                 "box": {
                     "background": 1,
+                    "id": "obj-18",
+                    "ignoreclick": 1,
+                    "maxclass": "mira.frame",
+                    "numinlets": 0,
+                    "numoutlets": 0,
+                    "patching_rect": [ 110.0, 600.0, 218.02198350429535, 155.0 ]
+                }
+            },
+            {
+                "box": {
+                    "background": 1,
                     "id": "obj-272",
                     "ignoreclick": 1,
                     "maxclass": "mira.frame",
@@ -3343,7 +3353,7 @@
                     "mode": 0,
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 590.0, 540.0, 480.0, 350.0 ],
+                    "patching_rect": [ 590.0, 550.0, 480.0, 350.0 ],
                     "proportion": 0.5
                 }
             },
@@ -4877,6 +4887,14 @@
             "obj-84": [ "number[12]", "number[31]", 0 ],
             "obj-92": [ "number[13]", "number[6]", 0 ],
             "obj-97": [ "live.gain~[1]", "live.gain~", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "autosave": 0,
